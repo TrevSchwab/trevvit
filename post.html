@@ -1,20 +1,19 @@
 <!doctype html>
-<html>
+<html lang="en">
   <head>
     <title>Trevvit</title>
+    <meta charset="utf-8">
   </head>
   <body>
     <header>nav</header>
-    <section>
+    <div>
       <div>controls</div>
       <div>image</div>
       <article>
-        <header>
-          <p>
-            Adding r/baseball as a default community for the remainder of the postseason.
-            <span> (<a href="#">self.announcements</a>) </span>
-          </p>
-        </header>
+        <h2>
+          Adding r/baseball as a default community for the remainder of the postseason.
+          <span> (<a href="#">self.announcements</a>) </span>
+        </h2>
         <p>submitted 1 month ago * by sodypop[A]</p>
         <div>
           The baseball postseason is already underway! As such, beginning today r/baseball will temporarily be added as a default community to users in the US and Canada for the remainder of the fall classic, which is expected to end by early November at the latest.
@@ -30,14 +29,14 @@
           </li>
         </ul>
       </article>
-    </section>
+    </div>
     <form>
-      <textarea></textarea>
-      <button type="submit">Save</button>
+      <textarea aria-label="comment box"></textarea>
+      <button type="submit">Save <span class="sr-only">comment</span></button>
     </form>
     <section>
       <div>
-        top 200 comments
+        <h3>top 200 comments</h3>
         <a href="/r/announcements/comments/585n8l/adding_rbaseball_as_a_default_community_for_the/?limit=500">
           show 500
         </a>
@@ -50,13 +49,16 @@
           <div> controls </div>
           <div>
             <p>
-              <a href="#">
+              <a href="#" role="button" title="collapse" aria-label="collapse">
                 [-]
               </a>
               <a href="#">
                 sodypop
               </a>
-              [<a href="#">S</a>, <a href="#">M</a>]
+              [
+                <a href="#" title="submitter" aria-label="submitter">S</a>,
+                <a href="#" title="moderator" aria-label="moderator">M</a>
+              ]
               560 points 1 month ago
             </p>
             <div>

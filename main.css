@@ -16,9 +16,32 @@ a {
 a:visited {
 	color: #551a8b;
 }
+a img {
+	width: 70px;
+	height: 70px;
+}
 .flat-list {
 	list-style: none;
 }
 .flat-list li {
 	display: inline;
+}
+.thing {
+	margin: 0;
+	margin-bottom: 8px;
+	padding-left: 3px;
+}
+.thumbnail {
+	float: left;
+	margin-bottom: 2px;
+	margin-right: 5px;
+	margin-top: 0;
+	margin-left: 0;
+	overflow: hidden;
+	width: 70px;
+}
+.entry {
+	overflow: hidden;
+	margin-left: 3px;
+	opacity: 1;
 }

@@ -11,11 +11,16 @@ body {
 #header {
 	height: 64px;
 	width: 1345px;
+	border-bottom: 1px solid #5f99cf;
+	background-color: #cee3f8;
 }
 #header-area {
 	height: 18px;
 	width: 1345px;
 	text-transform: uppercase;
+	background-color: #f0f0f0;
+	border-bottom: 1px solid gray;
+	line-height: 18px;
 }
 .dropdown {
 	height: 18px;
@@ -40,13 +45,33 @@ body {
 .flat-list-bar > li {
 	display: inline;
 }
-
+a:link {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
 a {
 	color: #0000ff;
 }
 
 a:visited {
 	color: #551a8b;
+}
+#header-bottom-left {
+	vertical-align: bottom;
+}
+.tabmenu {
+	list-style: none;
+	margin-left: 8px;
+	margin-top: 5px;
+	display: inline;
+	vertical-align: bottom;
+}
+.tabmenu > li {
+	margin-top: 5px;
+	display: inline;
+	vertical-align: bottom;
 }
 a img {
 	width: 70px;

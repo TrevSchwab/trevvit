@@ -15,7 +15,7 @@ body {
 #header-area {
 	height: 18px;
 	width: 1345px;
-
+	text-transform: uppercase;
 }
 .dropdown {
 	height: 18px;

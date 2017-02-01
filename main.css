@@ -59,19 +59,17 @@ a:visited {
 	color: #551a8b;
 }
 #header-bottom-left {
-	vertical-align: bottom;
+	padding-top: 32px;
 }
 .tabmenu {
 	list-style: none;
 	margin-left: 8px;
 	margin-top: 5px;
 	display: inline;
-	vertical-align: bottom;
 }
 .tabmenu > li {
 	margin-top: 5px;
 	display: inline;
-	vertical-align: bottom;
 }
 a img {
 	width: 70px;
@@ -80,6 +78,9 @@ a img {
 p {
 	margin: 0;
 	padding: 0;
+}
+.content {
+	float: left;
 }
 .flat-list {
 	list-style: none;
@@ -100,7 +101,7 @@ p {
 	margin-bottom: 8px;
 	padding-left: 3px;
 	height: 72px;
-	width: 1189px;
+	width: 885px;
 }
 .thumbnail {
 	float: left;
@@ -115,4 +116,14 @@ p {
 	overflow: hidden;
 	margin-left: 3px;
 	opacity: 1;
+}
+.aside {
+	float: right;
+	margin: 0px 5px 0px 5px;
+	width: 300px;
+	height: 742px;
+	position: relative;
+}
+.footer-parent {
+	clear: both;
 }

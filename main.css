@@ -81,6 +81,7 @@ p {
 }
 .content {
 	float: left;
+	margin-left: 148px;
 }
 .flat-list {
 	list-style: none;
@@ -123,6 +124,18 @@ p {
 	width: 300px;
 	height: 742px;
 	position: relative;
+}
+.spacer {
+	margin: 7px 0 12px 0;
+}
+.side-list {
+	position: absolute;
+	top: 65px;
+	left: 0;
+	bottom: 0;
+	width: 130px;
+	padding-right: 14px;
+	background-color: red;
 }
 .footer-parent {
 	clear: both;

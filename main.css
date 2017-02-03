@@ -10,13 +10,11 @@ body {
 }
 #header {
 	height: 64px;
-	width: 1345px;
 	border-bottom: 1px solid #5f99cf;
 	background-color: #cee3f8;
 }
 #header-area {
 	height: 18px;
-	width: 1345px;
 	text-transform: uppercase;
 	background-color: #f0f0f0;
 	border-bottom: 1px solid gray;
@@ -30,7 +28,6 @@ body {
 .banner-list {
 	height: 18px;
 	width: 1231.050px;
-	float: right;
 	display: inline;
 }
 .top-front-list {
@@ -135,7 +132,6 @@ p {
 	bottom: 0;
 	width: 130px;
 	padding-right: 14px;
-	background-color: red;
 }
 .footer-parent {
 	clear: both;

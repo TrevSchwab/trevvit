@@ -119,3 +119,7 @@ footer {
 .flat-list li {
 	display: inline;
 }
+a img {
+	width: 70px;
+	height: 70px;
+}

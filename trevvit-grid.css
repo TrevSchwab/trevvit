@@ -67,6 +67,42 @@ header {
 	background-color: #cee3f8;
 }
 
+#header {
+	height: 64px;
+	border-bottom: 1px solid #5f99cf;
+	background-color: #cee3f8;
+}
+#header-area {
+	height: 18px;
+	text-transform: uppercase;
+	background-color: #f0f0f0;
+	border-bottom: 1px solid gray;
+	line-height: 18px;
+}
+.dropdown {
+	height: 18px;
+	width: 108.953px;
+	float: left;
+}
+.banner-list {
+	height: 18px;
+	width: 1231.050px;
+	display: inline;
+}
+.top-front-list {
+	display: inline;
+}
+.top-front-list > li {
+	display: inline;
+}
+.flat-list-bar {
+	display: inline;
+	padding: 0px;
+}
+.flat-list-bar > li {
+	display: inline;
+}
+
 h1 {
 	margin: 0px;
 }

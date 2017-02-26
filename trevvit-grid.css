@@ -102,6 +102,19 @@ header {
 .flat-list-bar > li {
 	display: inline;
 }
+#header-bottom-left {
+	padding-top: 32px;
+}
+.tabmenu {
+	list-style: none;
+	margin-left: 8px;
+	margin-top: 5px;
+	display: inline;
+}
+.tabmenu > li {
+	margin-top: 5px;
+	display: inline;
+}
 
 h1 {
 	margin: 0px;
@@ -109,12 +122,10 @@ h1 {
 
 .row2 .col-1, .row2 .col-9, .row2 .col-2 {
 	height: 1717px;
-	background-color: #F89406;
 }
 
 footer {
 	height: 242px;
-	background-color: #F2784B;
 }
 
 .rank {

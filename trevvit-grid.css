@@ -85,7 +85,7 @@ header {
 }
 .dropdown {
 	height: 18px;
-	width: 108.953px;
+	padding-right: 5px;
 	float: left;
 }
 .banner-list {

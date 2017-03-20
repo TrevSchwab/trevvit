@@ -49,9 +49,11 @@
           <div> controls </div>
           <div>
             <p>
+              
               <a href="#" role="button" title="collapse" aria-label="collapse">
-                [-]
+              <button onclick="toggle_div('sectiontohide');">[-]</button>
               </a>
+              
               <a href="#">
                 sodypop
               </a>
@@ -61,7 +63,7 @@
               ]
               560 points 1 month ago
             </p>
-            <div>
+            <div id = "sectiontohide">
               Just to head off any confusion about whether or not this will impact people who are already logged in:
               <ul>
                 <li>
@@ -74,6 +76,7 @@
                   <a href="#">parent</a>
                 </li>
               </ul>
+              </div>
             </div>
           </div>
           <div>
@@ -86,5 +89,16 @@
     </section>
     <aside>login/ads/search</aside>
     <footer>foot links</footer>
+    <script type="text/javascript">
+      function toggle_div(id) {
+        var divElement = document.getElementById(id);
+
+        if(divElement.style.display == 'none')
+          divElement.style.display = 'block';
+
+        else
+          divElement.style.display = 'none';
+      }
+    </script>
   </body>
 </html>

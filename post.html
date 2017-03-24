@@ -50,8 +50,8 @@
           <div>
             <p>
               
-              <a href="#" role="button" title="collapse" aria-label="collapse">
-              <button onclick="toggle_div('sectiontohide');">[-]</button>
+              <a href="#" role="button" title="collapse" aria-label="collapse" class="collapse-button">
+              [-]
               </a>
               
               <a href="#">
@@ -63,7 +63,7 @@
               ]
               560 points 1 month ago
             </p>
-            <div id = "sectiontohide">
+            <div id = "collapse-button">
               Just to head off any confusion about whether or not this will impact people who are already logged in:
               <ul>
                 <li>
@@ -90,14 +90,14 @@
     <aside>login/ads/search</aside>
     <footer>foot links</footer>
     <script type="text/javascript">
-      function toggle_div(id) {
-        var divElement = document.getElementById(id);
+      const buttons = document.querySelectorAll('.collapse-button');
 
-        if(divElement.style.display == 'none')
-          divElement.style.display = 'block';
+      function hideComment() {
+        console.log('test');
+      }
 
-        else
-          divElement.style.display = 'none';
+      for (let i = 0; i < buttons.length; i++) {
+        buttons[i].addEventListener('click', hideComment);
       }
     </script>
   </body>
